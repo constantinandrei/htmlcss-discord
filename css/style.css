@@ -1,3 +1,88 @@
-body {
-    color: red;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+/* Header Classes */
+
+header {
+    background-color: rgb(49, 97, 224);
+}
+
+header .container {
+    padding: 1rem;
+}
+
+header li {
+    list-style-type: none;
+}
+
+header li a {
+    padding: 0 1rem;
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: white;
+}
+
+/* Main Classes */
+
+
+
+/* Utilities Classes */
+.container {
+    width: 100%;
+    max-width: 960px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-center {
+    justify-content: center;
+}
+
+.flex-align-center {
+    align-items: center;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.col {
+    flex-grow: 1;
+}
+
+.col-large {
+    flex-grow: 2;
+}
+
+.btn {
+    padding: 1rem;
+    border-radius: 30px;
+    border: none;
+}
+
+.btn-small {
+    font-size: .7rem;
+    padding: 0.5rem 0.7em;
+}
+
+.btn-white {
+    background-color: white;
+    color: black;
+}
+
+
+/* Footer Classes */
