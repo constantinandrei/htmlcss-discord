@@ -79,6 +79,10 @@ main p {
     line-height: 1.5rem;
 }
 
+.bg-gray {
+    background-color: rgb(246, 246, 246);
+}
+
 /* Utilities Classes */
 .container {
     width: 100%;
@@ -93,6 +97,10 @@ main p {
     padding-bottom: 5rem;
 }
 
+.padding-right {
+    padding-right: 5rem;
+}
+
 /* Flex classes */
 
 .d-flex {
@@ -103,8 +111,8 @@ main p {
     justify-content: center;
 }
 
-.padding-right {
-    padding-right: 5rem;
+.row-reverse {
+    flex-direction: row-reverse;
 }
 
 .flex-align-center {
