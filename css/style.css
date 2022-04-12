@@ -66,6 +66,10 @@ header li a {
     width: 500px;
 }
 
+.large-img {
+    width: 100%;
+}
+
 main {
     color: black;
 }
@@ -75,12 +79,27 @@ main h2 {
     padding-bottom: 2rem;
 }
 
+main h4 {
+    font-size: 1.4rem;
+}
+
 main p {
     line-height: 1.5rem;
 }
 
 .bg-gray {
     background-color: rgb(246, 246, 246);
+}
+
+.bg-star {
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/stars.svg");
+    background-repeat: no-repeat;
+    min-height: 90px;
+    max-width: 550px;
+    margin: auto;
+    text-align: center;
 }
 
 /* Utilities Classes */
@@ -99,6 +118,10 @@ main p {
 
 .padding-right {
     padding-right: 5rem;
+}
+
+.text-center {
+    text-align: center;
 }
 
 /* Flex classes */
@@ -159,5 +182,9 @@ main p {
     color: white;
 }
 
+.btn-lilla {
+    background-color: rgb(176, 188, 232);
+    color: white;
+}
 
 /* Footer Classes */
