@@ -31,6 +31,35 @@ header li a {
     color: white;
 }
 
+.bg-jumbo {
+    background-color: rgb(49, 97, 224);
+    background-image: url("../img/jumbo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-content {
+    text-align: center;
+    padding: 3rem 7rem;
+    min-height: 550px;
+}
+
+.main-content h1 {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    font-size: 2.8rem;
+}
+
+.main-content p {
+    line-height: 1.8rem;
+    padding-bottom: 2rem;
+}
+
+.arrow {
+    margin-right: 0.5rem;
+    font-size: 16px;
+}
 /* Main Classes */
 
 
@@ -43,6 +72,8 @@ header li a {
     margin: 0 auto;
     padding: 2rem 1rem;
 }
+
+/* Flex classes */
 
 .d-flex {
     display: flex;
@@ -60,6 +91,10 @@ header li a {
     justify-content: flex-end;
 }
 
+.flex-gutter {
+    gap: 2rem;
+}
+
 .col {
     flex-grow: 1;
 }
@@ -68,10 +103,13 @@ header li a {
     flex-grow: 2;
 }
 
+/* Buttons classes */
+
 .btn {
-    padding: 1rem;
+    padding: 1rem 2rem;
     border-radius: 30px;
     border: none;
+    font-size: 0.9rem;
 }
 
 .btn-small {
@@ -80,8 +118,13 @@ header li a {
 }
 
 .btn-white {
-    background-color: white;
+    background-color: rgb(252, 250, 246);
     color: black;
+}
+
+.btn-black {
+    background-color: rgb(42, 45, 44);
+    color: white;
 }
 
 
