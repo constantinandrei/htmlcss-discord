@@ -1,0 +1,10 @@
+.gray-svg {
+    color: rgb(246, 246, 246);
+    display: block;
+}
+
+.white-svg {
+    color: white;
+    display: block;
+    background-color: rgb(246, 246, 246);
+}
