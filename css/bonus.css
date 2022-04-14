@@ -1,10 +1,14 @@
-.gray-svg {
-    color: rgb(246, 246, 246);
+.wave-container > svg {
     display: block;
 }
 
-.white-svg {
+.gray-wave {
+    color: rgb(246, 246, 246);
+    
+}
+
+.white-wave {
     color: white;
-    display: block;
+    
     background-color: rgb(246, 246, 246);
 }
