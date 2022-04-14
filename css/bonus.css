@@ -1,14 +1,39 @@
+a:hover {
+    text-decoration: underline;
+}
+
 .wave-container > svg {
     display: block;
 }
 
 .gray-wave {
-    color: rgb(246, 246, 246);
-    
+    color: rgb(246, 246, 246);   
 }
 
 .white-wave {
     color: white;
-    
     background-color: rgb(246, 246, 246);
+}
+
+.header-logo,
+.footer-logo,
+.btn,
+.lang-select,
+.fa-brands {
+    cursor: pointer;
+}
+
+.btn-white:hover {
+    color: #5865f2;
+    box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+}
+
+.btn-black:hover {
+    background-color: #36393f;
+    box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+}
+
+.btn-lilla:hover {
+    box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+    background-color: #6870c8;
 }
