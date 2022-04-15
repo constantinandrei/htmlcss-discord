@@ -52,5 +52,42 @@ header p {
 main p {
     padding-bottom: 1rem;
     padding-right: 1rem;
-    line-height: 1.5rem;
+    line-height: 1.8rem;
+}
+
+.flex-gutter-large {
+    gap: 12rem;
+}
+
+main h4 {
+    font-size: 2rem;
+    padding: 2rem 0;
+    line-height: 2.5rem;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.small-col {
+    max-width: 350px;
+}
+
+main li {
+    list-style-type: none;
+    line-height: 3rem;
+}
+
+main ul {
+    padding-top: 2rem;
+}
+
+main li a {
+    text-decoration: none;
+    color: #00b0f4;
+    font-size: 1.3rem;
+}
+
+main li a:hover {
+    text-decoration: underline;
 }
