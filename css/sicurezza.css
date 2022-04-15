@@ -1,0 +1,56 @@
+header.bg-color-sicurezza {
+    background-color: #5865f2;
+}
+
+.security-menu {
+    width: 100%;
+}
+
+.container {
+    max-width: 1150px;
+}
+
+.menu-arrow {
+    font-size: 1rem;
+}
+
+.menu-item {
+    cursor: pointer;
+    padding: 1rem 1rem;
+    border-bottom: 1px solid #8e93cd;
+}
+
+.menu-item.first-menu-item {
+    border-bottom: 1px solid white;
+}
+
+header .container.padding-tb-large {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.bold-title {
+    font-weight: 800;
+    font-size: 65px;
+    text-align: center;
+}
+
+header p {
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    line-height: 1.5rem;
+}
+
+.col.half-width {
+    width: 50%;
+}
+
+.col.half-width img {
+    width: 100%
+}
+
+main p {
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    line-height: 1.5rem;
+}
